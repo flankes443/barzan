@@ -1,0 +1,6 @@
+{
+  "name": "Flankes",
+  "description": "iPhone tarzı arayüze sahip, mobil uyumlu, canlı önizlemeli ve örnek şablonlu gelişmiş HTML, CSS ve JavaScript kod çalıştırma ve düzenleme uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
