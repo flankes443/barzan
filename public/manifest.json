@@ -3,12 +3,12 @@
   "name": "Flankes iOS App Studio",
   "icons": [
     {
-      "src": "/flankes_app_icon.jpg?v=3",
+      "src": "flankes_app_icon.jpg?v=3",
       "type": "image/jpeg",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "./",
   "background_color": "#121214",
   "theme_color": "#10b981",
   "display": "standalone",

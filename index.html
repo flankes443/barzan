@@ -9,22 +9,22 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Flankes" />
-    <link rel="manifest" href="/manifest.json" />
+    <link rel="manifest" href="manifest.json" />
     
     <!-- Beautiful modern abstract icon for iPhone Home Screen -->
-    <link rel="apple-touch-icon" href="/flankes_app_icon.jpg?v=3" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/flankes_app_icon.jpg?v=3" />
-    <link rel="apple-touch-icon" sizes="167x167" href="/flankes_app_icon.jpg?v=3" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/flankes_app_icon.jpg?v=3" />
+    <link rel="apple-touch-icon" href="flankes_app_icon.jpg?v=3" />
+    <link rel="apple-touch-icon" sizes="152x152" href="flankes_app_icon.jpg?v=3" />
+    <link rel="apple-touch-icon" sizes="167x167" href="flankes_app_icon.jpg?v=3" />
+    <link rel="apple-touch-icon" sizes="180x180" href="flankes_app_icon.jpg?v=3" />
     
     <!-- Splash Screen configuration for iOS -->
-    <link rel="apple-touch-startup-image" href="/flankes_app_icon.jpg?v=3" />
+    <link rel="apple-touch-startup-image" href="flankes_app_icon.jpg?v=3" />
 
     <!-- Service Worker registration for offline functionality -->
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
+          navigator.serviceWorker.register('sw.js')
             .then((reg) => console.log('Service Worker registered successfully!', reg.scope))
             .catch((err) => console.warn('Service Worker registration failed:', err));
         });
@@ -33,7 +33,7 @@
   </head>
   <body class="bg-[#09090b]">
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <script type="module" src="src/main.tsx"></script>
   </body>
 </html>
 
